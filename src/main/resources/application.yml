@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  rsocket:
+    server:
+      port: 7002
+
+database:
+  host: localhost
+  port: 5432
+  name: rsocket_lookup
+  username: ${DATABASE_USERNAME}
+  password: ${DATABASE_PASSWORD}
